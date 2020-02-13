@@ -11,8 +11,10 @@ const App = () => {
     let backImg = {
         backgroundImage: `url(${img})`,
         backgroundRepeat: 'no-repeat',
-        // backgroundAttachment: 'fixed',
-        backgroundPosition: 'center'
+        backgroundPosition: 'center',
+        width: '100vw',
+        height: "100vh",
+        backgroundSize: 'cover'
     }
 
   return (
